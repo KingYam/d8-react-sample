@@ -13,3 +13,6 @@ To run project locally:
 2. Navigate to the `d8-sample-react` folder and start React environment
 
    `yarn start`
+
+
+>**Note** I'm still working on cleaning this up so it can be easier to understand!
