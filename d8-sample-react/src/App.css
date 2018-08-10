@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  width: 100px;
+}
+
+.Drupal-logo {
+  height: 80px;
+  width: 73px;
+}
+.Plus-sign{
+  height: 20px;
+  width: 20px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+.images {
+  margin: auto;
+  height: 80px;
+  width: 50%;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  width: 50%;
+  margin: auto;
+  padding-right: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.feature-block {
+  float: left;
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+.feature-container {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  clear: both;
+}
+
+.feature-image {
+  height: 225px;
+  width: 225px;
+}
+
+.clear-right{
+  clear: right;
+}

@@ -1,0 +1,25 @@
+# Local development services.
+#
+# To activate this feature, follow the instructions at the top of the
+# 'example.settings.local.php' file, which sits next to this file.
+parameters:
+  http.response.debug_cacheability_headers: true
+  cors.config:
+    enabled: true
+    # Specify allowed headers, like 'x-allowed-header'.
+    allowedHeaders: ['content-type', 'authorization']
+    # Specify allowed request methods, specify ['*'] to allow all possible ones.
+    allowedMethods: ['GET', 'POST']
+    # Configure requests allowed from specific origins.
+    allowedOrigins: ['http://localhost:3000']
+    # Sets the Access-Control-Expose-Headers header.
+    exposedHeaders: false
+    # Sets the Access-Control-Max-Age header.
+    maxAge: false
+    # Sets the Access-Control-Allow-Credentials header.
+    supportsCredentials: false
+services:
+  cache.backend.null:
+    class: Drupal\Core\Cache\NullBackendFactory
+
+# info from here: https://www.drupal.org/node/2715637
