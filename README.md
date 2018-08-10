@@ -6,10 +6,10 @@ I created the Drupal 8 instance locally using [Docksal](https://github.com/docks
 
 To run project locally:
 
-1. Start Drupal environment
+1. Navigate to the `d8-sample` folder and start Drupal vm environment
 
    `fin vm start`
 
-2. Start React environment
+2. Navigate to the `d8-sample-react` folder and start React environment
 
    `yarn start`
