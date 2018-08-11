@@ -17,4 +17,4 @@ To run project locally:
    `yarn start`
 
 
->**Note** I'm still working on cleaning this up so it can be easier to understand!
+>**Note** I'm still working on cleaning this up so it can be easier to understand and use.
