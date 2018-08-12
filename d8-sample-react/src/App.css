@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,12 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
   width: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Drupal-logo {
@@ -30,6 +38,13 @@
   height: 150px;
   padding: 20px;
   color: white;
+  border-bottom: solid 5px #7fd8f7;
+  animation: drupalToReact 4s infinite alternate;
+}
+
+@-webkit-keyframes drupalToReact {
+  0% {border-color: #50a8db;}
+  100% {border-color: #7fd8f7;}
 }
 
 .App-title {
@@ -51,7 +66,6 @@
 .feature-block {
   float: left;
   width: 350px;
-  height: 350px;
   margin-top: 20px;
 }
 
