@@ -9,10 +9,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div>
+        <div className="info">
           <p>This is an example of a headless Drupal 8 integration that feeds data into components within a React application.</p>
           <p>
-            Users can create a new feature, as well as edit the feature image, feature title, and feature body within the Drupal 8 backend integration. The data is accessed by the React frontend via Rest API Export using a Drupal View.
+            Users can create a new feature, as well as edit the feature image, feature title, and feature body within the Drupal 8 backend integration. The data is accessed by the React frontend via Rest API Export (using a Drupal View) and passed through a Features component to individual Feature components to be rendered.
           </p>
         </div>
         <Features />
