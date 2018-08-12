@@ -7,7 +7,6 @@ export default class Features extends Component {
 	};
 
 	fetchData = () => {
-		console.log('fetch');
 		try {
 			fetch(process.env.REACT_APP_D8_API_ADDRESS) // lives in .env -- had to enable CORS in services.yml in D8
 				.then(results => {
