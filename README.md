@@ -22,3 +22,5 @@ To run project locally:
 
 
 >**Note** I'm still working on cleaning this up so it can be easier to understand and use.
+
+The frontend can be viewed live http://dev1.redcrestdevelopment.com/ which pulls data from http://dev2.redcrestdevelopment.com/
