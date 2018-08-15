@@ -6,9 +6,16 @@ This project was built to demonstrate a headless instance of Drupal 8 to control
 
 Users can create a new feature, as well as edit the feature image, feature title, and feature body within the Drupal 8 backend integration. The data is accessed by the React frontend via Rest API Export (using a Drupal View) and passed through a Features component to individual Feature components to be rendered.
 
+![](drupal_backend.png) ![](react_front_rep.png)
+
+
 Data live-reloads from the D8 integration every 30 seconds.
 
 I created the Drupal 8 instance locally using [Docksal](https://github.com/docksal/docksal) and the React instance using [create-react-app](https://github.com/facebook/create-react-app).
+
+---
+The frontend can be viewed live http://dev1.redcrestdevelopment.com/ which pulls data from http://dev2.redcrestdevelopment.com/
+---
 
 To run project locally:
 
@@ -23,4 +30,3 @@ To run project locally:
 
 >**Note** I'm still working on cleaning this up so it can be easier to understand and use.
 
-The frontend can be viewed live http://dev1.redcrestdevelopment.com/ which pulls data from http://dev2.redcrestdevelopment.com/
