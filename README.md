@@ -28,3 +28,10 @@ To run project locally:
 
 >**Note** I'm still working on cleaning this up so it can be easier to understand and use.
 
+---
+
+Drupal 8 Backend - Feature Editing
+![](drupal_backend.png)
+
+React Frontend Representation
+![](react_front_rep.png)
