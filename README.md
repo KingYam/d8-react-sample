@@ -6,9 +6,9 @@ This project was built to demonstrate a headless instance of Drupal 8 to control
 
 Users can create a new feature, as well as edit the feature image, feature title, and feature body within the Drupal 8 backend integration. The data is accessed by the React frontend via Rest API Export (using a Drupal View) and passed through a Features component to individual Feature components to be rendered.
 
-<img src="drupal_backend.png" height="300px" />
+![](drupal_backend.png)
 
-<img src="react_front_rep.png" height="300px" />
+![](react_front_rep.png)
 
 
 Data live-reloads from the D8 integration every 30 seconds.
